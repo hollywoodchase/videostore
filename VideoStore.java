@@ -15,7 +15,7 @@ class VideoStore {
         Scanner scanner = new Scanner(System.in);
         boolean running = true;
         if (args.length == 0) {
-            System.out.println("Usage1: java VideoStore <listType> [<numVideos> <numCustomers> <numRequests>]");
+            System.out.println("Usage100: java VideoStore <listType> [<numVideos> <numCustomers> <numRequests>]");
             return;
         }
 
